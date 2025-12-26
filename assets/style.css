@@ -1,0 +1,39 @@
+/* =========================
+   Streamlit Custom Styles
+   ========================= */
+
+body {
+    background-color: #f7f9fc;
+    font-family: "Inter", sans-serif;
+}
+
+.main {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+h1, h2, h3 {
+    color: #004AAD;
+    font-weight: 600;
+}
+
+.sidebar .sidebar-content {
+    background-color: #f0f4ff;
+}
+
+button[kind="primary"] {
+    background-color: #004AAD !important;
+    color: white !important;
+    border-radius: 8px !important;
+    font-weight: 600 !important;
+}
+
+.stMarkdown {
+    color: #222;
+}
+
+footer {
+    visibility: hidden;
+}
